@@ -13,13 +13,13 @@ public class QuotientAndRemainder {
         System.out.println("Dividing number A by number B:");
 
         System.out.println("Enter A:");
-        double a = sc.nextDouble();
+        int a = sc.nextInt();
 
         System.out.println("Enter B:");
-        Double b = sc.nextDouble();
+        int b = sc.nextInt();
 
-        double quotient = (int)(a/b);
-        double remainder = (int)(a%b);
+        int quotient = a/b;
+        int remainder = a%b;
 
         System.out.println(a+" (A) when divided by "+b+" (B) gives the quotient "+quotient+" and the remainder "+remainder);
 
